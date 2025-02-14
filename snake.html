@@ -13,12 +13,14 @@
             <p>Score: <span id="score">0</span></p>
             <p>High Score: <span id="high-score">0</span></p>
         </div>
-        <canvas id="gameCanvas" width="400" height="400"></canvas>
+        <div class="canvas-container">
+            <canvas id="gameCanvas" width="400" height="400"></canvas>
+        </div>
         <button id="restart-button">Restart</button>
         <div id="game-over" class="hidden">
             <h2>Game Over</h2>
             <p>Your Score: <span id="final-score"></span></p>
-            <p>High Score: <span id="high-score-over"></span></p>
+            <p>High Score: <span id="high-score-over">0</span></p>
             <button id="restart-game-over">Restart</button>
         </div>
     </div>
