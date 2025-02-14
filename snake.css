@@ -1,12 +1,11 @@
 body {
+    font-family: Arial, sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
     margin: 0;
-    background: linear-gradient(to bottom right, #04bd89 , #0a90b2);
-    color: #fff;
-    font-family: Arial, sans-serif;
+    background: linear-gradient( to bottom right,#0ac2d6, #0690a5)
 }
 
 .container {
@@ -20,15 +19,21 @@ body {
     margin-bottom: 20px;
 }
 
+.canvas-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
 #gameCanvas {
     border: 2px solid #fff;
     background-color: #3c8c3c; /* Добавляем зеленый фон */
-    margin:0 auto; /* Центрируем сетку */
 }
 
 h1 {
-    color: #ffffff;
-    text-shadow: 0 0 5px #cbd5cf, 0 0 10px #d7dfda;
+    color: #00ff66;
+    text-shadow: 0 0 5px #00ff66, 0 0 10px #00ff66;
 }
 
 #restart-button,
@@ -42,8 +47,6 @@ h1 {
     cursor: pointer;
     transition: background-color 0.3s ease;
     margin: 10px;
-    position: relative;
-    bottom: -60px; /* Перемещаем кнопку ниже */
 }
 
 #restart-button:hover,
@@ -68,6 +71,8 @@ h1 {
     font-size: 1.2em;
     text-shadow: 0 0 5px #ff0066, 0 0 10px #ff0066;
 }
+
+
 
 
 
